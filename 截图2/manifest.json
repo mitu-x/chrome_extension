@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "插件名",
+  "name": "截全屏图",
   "version": "1.0",
-  "description": "插件描述",
+  "description": "全屏截图实验",
   "action": {
     "default_icon": "/images/icon.png",
     "default_title": "插件图标上显示的内容",
@@ -22,11 +22,7 @@
     }
   ],
   "permissions": [
-    "tabs",
-    "unlimitedStorage",
-    "notifications",
-    "history",
-    "activeTab",
-    "storage"
+    "desktopCapture",
+    "activeTab"
   ]
 }

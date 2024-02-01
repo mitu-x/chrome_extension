@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Reading time",
+  "name": "访问提示",
   "version": "1.0",
   "description": "Add the reading time to Chrome Extension documentation articles",
   "icons": {
@@ -21,14 +21,14 @@
         "scripts/content.js"
       ],
       "matches": [
-        "<all_urls>",
-        "https://developer.chrome.com/docs/webstore/*"
+        "<all_urls>"
       ]
     }
   ],
   "action": {
     "default_icon": {
       "16": "images/icon.png"
-    }
+    },
+    "default_popup": "popup/popup.html"
   }
 }

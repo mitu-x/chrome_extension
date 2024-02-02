@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "pageCapture",
+  "version": "1.0",
+  "description": "pageCapture",
+  "action": {
+    "default_icon": "/images/icon.png"
+  },
+  "background": {
+    "service_worker":"background.js"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "scripts/content.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "permissions": [
+    "pageCapture",
+    "activeTab",
+    "tabs"
+  ]
+
+}

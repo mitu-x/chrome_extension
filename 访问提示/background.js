@@ -1,38 +1,8 @@
-//创建一个右键菜单选项
-// chrome.contextMenus.create({
-//     id: "sampleContextMenu",
-//     title: "发送通知"
-// });
-//点击右键选择项时
-// chrome.contextMenus.onClicked.addListener(function (){
-//     //点击右键中的发送通知
-//     chrome.notifications.create('notice',{
-//         type: 'basic',
-//         title: 'Notification title',
-//         message: 'Notification message',
-//         iconUrl:"images/icon.png"
-//     });
-// })
 
 
 // 官网--搜索--信箱--执法--
 let urls = [
-    {
-        name: '官网',
-        url: "http://chongqing.chinatax.gov.cn/"
-    },
-    {
-        name: '搜索',
-        url: 'http://chongqing.chinatax.gov.cn/cqsswjgw/static/pages/search.html?keyword='
-    },
-    {
-        name: '信箱',
-        url: 'http://chongqing.chinatax.gov.cn/xxgkxt/pages/hdjl/index.html?model=jzxx&bz=new'
-    },
-    {
-        name: '执法',
-        url: 'http://chongqing.chinatax.gov.cn:8888/sjzfgs'
-    }
+
 ]
 
 //发起请求
